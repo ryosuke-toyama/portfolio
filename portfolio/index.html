@@ -1,0 +1,150 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta discription="ryosukeの学習用サイトです">
+    <meta keyword="学習,ウェブ制作,プログラミング">
+    <meta name="viewport" content="width=device-width,initial-scale=1.0">
+    <title>HTML学習用ウェブサイト</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://use.fontawesome.com/releases/v5.6.1/css/all.css" rel="stylesheet">
+  </head>
+
+  <body>
+
+    <header>
+      <h1><a href="#"></a></h1>
+      <form name="highlight">
+        <input type="text" id="search_word" placeholder="ページ内検索">
+        <input type="image" id="search_btn" src="images/search.png">
+        <input type="button" id="search_reset_btn" value="×">
+      </form>
+      <nav>
+        <div id="humberger">
+          <span></span>
+          <span></span>
+          <span></span>
+        </div>
+        <ul>
+          <li><a href="#news">news</a></li>
+          <li><a href="#gallary">gallary</a></li>
+          <li><a href="#about">about</a></li>
+          <li><a href="#contact">contact</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <div id="wrapper">
+      <div id="main_img">
+        <div class="black_screen">
+          <div id="top_message">
+            <h2>ホームページ制作って難しい</h2>
+            <p>
+              ホームページ制作って難しいですよね。ご安心ください。<wbr>あなたのホームページ制作のお手伝いをします。<br>
+              デザインやコーディング、SEO対策やセキュリティなど難しい事は私にお任せください。<br>
+              きっとあなたの気に入るホームページが手に入ります。
+            </p>
+          </div><!-- //top_message -->
+        </div><!-- black_screen -->
+      </div><!-- //main_img -->
+
+      <div class="colmun">
+        <div id="news">
+          <h2>News</h2>
+          <ul>
+            <li>
+              <a>
+                <time>2020/12/18</time>
+                <p>ロゴ更新</p>
+              </a>
+            </li>
+            <li>
+              <a>
+                <time>2020/11/07</time>
+                <p>gallary更新</p>
+              </a>
+            </li>
+            <li>
+              <a>
+                <time>2020/10/22</time>
+                <p>gallary更新</p>
+              </a>
+            </li>
+            <li>
+              <a>
+                <time>2020/09/13</time>
+                <p>サイトリニューアル</p>
+              </a>
+            </li>
+          </ul>
+        </div><!-- //news -->
+        <div id="gallary">
+          <h2>Gallary</h2>
+          <ul>
+            <li><a href="#">
+              <img src="images/Web_sumple01.png" alt="sumple01">
+              <p>サンプルサイト1です</p>
+            </a></li>
+            <li><a href="#">
+              <img src="images/Web_sumple02.png" alt="sumple02">
+              <p>サンプルサイト2です</p>
+            </a></li>
+            <li><a href="#">
+              <img src="images/Web_sumple03.png" alt="sumple03">
+              <p>サンプルサイト3です</p>
+            </a></li>
+            <li><a href="#">
+              <img src="images/Web_sumple02.png" alt="sumple02">
+              <p>サンプルサイト2です</p>
+            </a></li>
+            <li><a href="#">
+              <img src="images/Web_sumple01.png" alt="sumple01">
+              <p>サンプルサイト1です</p>
+            </a></li>
+          </ul>
+        </div><!-- //gallary -->
+      </div><!-- //colmun-->
+      <div id="about">
+        <h2>about</h2>
+        <div class="colmun">
+          <div id="profile_img"></div>
+          <div>
+            <h3>Ryosuke Toyama</h3>
+            <p>
+              大阪在住。Webデザイナー。元携帯ショップ店員。フリーランスとして生きるためにプログラミングを学習。<br>
+              HTML/CSS/JavaScript/Ruby/Ruby on Rails/PHP/Laravel/MySQL/AWS/VBA</p>
+            <ul>
+              <li><a href="#"><i class="fab fa-twitter"></i></a></li>
+              <li><a href="#"><i class="fab fa-facebook-square"></i></a></li>
+              <li><a href="#"><i class="fab fa-instagram"></i></a></li>
+            </ul>
+          </div>
+
+          
+        </div>
+      </div><!-- //about -->
+      <div id="contact">
+        <h2>contact</h2>
+        <form>
+            <label for="family_name">姓：</label>
+            <input type="text" placeholder="山田" id="family_name" name="family_name">
+            <label for="first_name">名：</label>
+            <input type="text" placeholder="太郎" id="first_name" name="first_name">
+            <label for="e-mail">メールアドレス：</label>
+            <input type="text" placeholder="mail@mail.com" id="e-mail" name="e-mail">
+          
+          <label for="text">内容：</label>
+          <textarea placeholder="お問い合わせの内容を記載してください。" id="text" name="text"></textarea>
+          <input type="submit" value="送信する">
+          <input type="reset" value="初期化する">
+        </form>
+      </div><!-- //contact -->
+    </div><!-- //wrapper -->
+
+    <footer>
+      <p>&copy;Ryosuke Toyama</p>
+    </footer>
+
+  </body>
+
+</html>
